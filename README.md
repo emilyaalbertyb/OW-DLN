@@ -4,8 +4,6 @@
 
 **An Industrial Defect Detection Framework for Open World Scenarios**
 
-[English](README_EN.md) | 简体中文
-
 </div>
 
 ---
@@ -621,7 +619,7 @@ This project is open-sourced under the AGPL-3.0 license. See [LICENSE](LICENSE) 
 
 This project is based on the following excellent works:
 
-- [Ultralytics YOLOv8](https://github.com/ultralytics/ultralytics)
+- [Ultralytics](https://github.com/ultralytics/ultralytics)
 - [VQ-VAE-2](https://arxiv.org/abs/1906.00446)
 - [PixelSNAIL](https://arxiv.org/abs/1712.09763)
 - [Stable Diffusion](https://github.com/CompVis/stable-diffusion)
