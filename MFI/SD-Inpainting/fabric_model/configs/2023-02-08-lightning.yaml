@@ -1,0 +1,25 @@
+lightning:
+  find_unused_parameters: false
+  callbacks:
+    image_logger:
+      target: main_inpainting.ImageLogger
+      params:
+        disabled: false
+        batch_frequency: 750
+        max_images: 4
+        increase_log_steps: true
+        log_first_step: true
+        log_images_kwargs:
+          use_ema_scope: false
+          plot_progressive_rows: true
+          plot_diffusion_rows: true
+          'N': 4
+          unconditional_guidance_scale: 1.0
+          unconditional_guidance_label:
+          - ''
+          ddim_steps: 50
+          ddim_eta: 0.0
+  trainer:
+    accelerator: gpu
+    deterministic: true
+    gpus: 1
